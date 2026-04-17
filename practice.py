@@ -1,5 +1,6 @@
 name = input("Enter your name here: ")
-age = int(input("Enter your age: "))
+year = int(input("Enter your Birth year: "))
 
 print(f"Your name is {name}")
-print(f"You will be",  age + 5, "years old after 5 years")
+
+print("You are", 2026 - year, "old!")
