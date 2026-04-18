@@ -13,7 +13,12 @@ if user_choice == comp_choice:
 
 elif user_choice == "Rock":
     if comp_choice == "Paper":
-        print("Paper covers Rock = Computer")
+        print("Paper covers Rock: Computer Wins")
     else:
         print("Rock smashes Scissor: You Win")
 
+elif user_choice == "Paper":
+    if comp_choice == "Scissor":
+        print("Scissor cuts paper: Computer Wins")
+    else:
+        print("Paper covers Rock: You Win")
