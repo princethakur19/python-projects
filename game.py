@@ -22,3 +22,9 @@ elif user_choice == "Paper":
         print("Scissor cuts paper: Computer Wins")
     else:
         print("Paper covers Rock: You Win")
+
+elif user_choice == "Scissor":
+    if comp_choice == "Paper":
+        print("Scissor cuts paper: You Win")
+    else:
+        print("Rock smashes Scissor: Computer Win")
