@@ -29,3 +29,6 @@ buttons = [tk.Button(root, text="", font=("normal", 25), width=6, height=2, comm
 for i, button in enumerate(buttons):
     buttons.grid(row=i //3, column=i % 3)
 
+current_player = "X"
+winner = False
+label = tk.Label(root, text=f"Player {current_player}'s turn", font=("normal", 16))
