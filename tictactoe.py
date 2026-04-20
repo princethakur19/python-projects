@@ -20,3 +20,8 @@ def toggle_player():
     global current_player
     current_player = "X" if current_player == "O" else "O"
     label.config(text=f"Player {current_player}'s turn")
+
+root = tk.Tk()
+root.title("Tic-Tac-Toe")
+
+buttons = [tk.Button(root, text="", font=("normal", 25), width=6, height=2, command=lambda)]
